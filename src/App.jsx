@@ -4,6 +4,7 @@ import { Container } from "./components/styles/Container.styled";
 import GlobalStyle from "./components/styles/Global";
 import content from "./content";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 
 const theme = {
@@ -25,6 +26,7 @@ const App = () => {
             <Card key={index} item={item} />
           ))}      
       </Container>
+      <Footer />
     </ThemeProvider>
   )
 }
